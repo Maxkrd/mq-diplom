@@ -79,6 +79,24 @@ body {
   line-height: 1.65;
   text-align: center;
 }
+.trends {
+  margin-top: 60px;
+}
+.trends-title {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: #0f0d0e;
+}
+.trends-title:after {
+  display: block;
+  content: "";
+  width: 66px;
+  height: 3px;
+  margin: 10px auto 20px;
+  background-color: #e1d9bd;
+}
 .main-wrapper {
   margin-top: 60px;
 }
