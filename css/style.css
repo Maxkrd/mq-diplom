@@ -94,7 +94,7 @@ body {
   content: "";
   width: 66px;
   height: 3px;
-  margin: 10px auto 20px;
+  margin: 8px auto 26px;
   background-color: #e1d9bd;
 }
 .trends-container {
@@ -104,10 +104,13 @@ body {
   flex-wrap: wrap;
 }
 .trends-item {
-  width: 24.7%;
+  display: flex;
+  align-items: flex-end;
+  width: 24.8%;
+  height: 320px;
   position: relative;
   z-index: 0;
-  
+  padding: 15px 22px;
   background-repeat: no-repeat;
   background-position: center; 
   background-size: cover;
@@ -135,19 +138,11 @@ body {
   content: "";
   background-color: rgba(0, 0, 0, 0.6);
 }
-.trends-skin {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: flex-end;
-  box-sizing: border-box;
-  padding: 29% 1.25em 1em 1.25em;
-}
-.trends-item-text {
+.trends-item-block {
   width: 100%;
   z-index: 1;
   border: 3px solid rgba(181, 159, 91, 0.7);
-  padding: 2em;
+  padding: 32px;
 }
 .trends-item-link {
   font-size: 20px;
@@ -405,6 +400,40 @@ body {
   color: #b59f5b;
   font-weight: 700;
   vertical-align: super;
+}
+.products {
+  margin-top: 60px;
+}
+.products-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}  
+.products-title {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: #0f0d0e;
+}
+.products-title:after {
+  display: block;
+  content: "";
+  width: 66px;
+  height: 3px;
+  margin: 8px auto 26px;
+  background-color: #e1d9bd;
+}
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.products-item {
+  display: flex;
+  position: relative;
+  width: 29.5%;
+  border: 2px solid red;
 }
 .footer {
   margin-top: 60px;
