@@ -277,16 +277,28 @@
     <div class="products-wrapper">
       <h2 class="products-title">наши изделия</h2>
       <div class="products-container">
+
         <article class="products-item">
-          <div class="product-imgbox">
-            <img class="products-preview" src="/img/shop-item-desk1.jpg" alt="pillow">
-          </div>
+          <picture class="product-preview">
+            <source media="(max-width: 640px)" srcset="/img/shop-item-mobile1.jpg">
+            <source media="(min-width: 641px)" srcset="/img/shop-item-tablet1.jpg">
+            <source media="(min-width: 1200px)" srcset="/img/shop-item-desk1.jpg">
+            <img class="products-preview" src="/img/shop-item-desk1.jpg" alt="pillow">          
+          </picture>
           <div class="product-body">
             <h2 class="product-title"><a href="#0" class="product-title-link">подушки на диван</a></h2>
             <div class="product-description">
               <p>Набор из двух подушек с модными принтами. Видео о создании здесь.</p>
             </div>
           </div>
+          <footer class="product-footer">
+            <div class="product-prices">
+              <span class="product-price product-price-old">1000</span>
+              <span class="product-price">800</span>
+
+            </div>
+            <button class="product-button" type="button">Купить</button>
+          </footer>
         </article>
 
       </div>

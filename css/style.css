@@ -107,7 +107,7 @@ body {
   display: flex;
   align-items: flex-end;
   width: 24.8%;
-  height: 320px;
+  min-height: 320px;
   position: relative;
   z-index: 0;
   padding: 15px 22px;
@@ -139,7 +139,7 @@ body {
   background-color: rgba(0, 0, 0, 0.6);
 }
 .trends-item-block {
-  width: 100%;
+  /* width: 100%; */
   z-index: 1;
   border: 3px solid rgba(181, 159, 91, 0.7);
   padding: 32px;
@@ -158,12 +158,12 @@ body {
 .main-container {
   display: flex;
   justify-content: space-between;
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
 .main {
-  width: 778px;
+  max-width: 778px;
 }
 .article {
   display: flex;
@@ -405,7 +405,7 @@ body {
   margin-top: 60px;
 }
 .products-wrapper {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }  
@@ -431,6 +431,7 @@ body {
 }
 .products-item {
   display: flex;
+  flex-direction: column;
   position: relative;
   width: 29.5%;
   border: 2px solid red;
