@@ -554,3 +554,138 @@ body {
  color: #999999;
  text-decoration: none;
 }
+.popup {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+.popup-container {
+  max-width: 390px;
+  margin: auto;
+  padding: 45px 30px 50px;
+  background-color: #fff;
+  position: relative;
+}
+.feedback-title {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: #0f0d0e;
+}
+.feedback-title:after {
+  display: block;
+  content: "";
+  width: 65px;
+  height: 3px;
+  margin: 8px auto 26px;
+  background-color: #e1d9bd;
+}
+.field-label {
+  font-size: 13px;
+  display: block;
+  margin-bottom: 5px; 
+}
+.select-wrp {
+  margin-bottom: 30px;
+}
+.select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%; 
+  height: 48px;
+  border: none;
+  color: #a2a4a3;
+  background-color: #f4f7f6;
+  padding: 0 20px;
+  background-image: url("..//svg/form-arrows.svg");
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 10px;
+}
+.select:focus {
+  outline: 1px solid #b59f5b;
+}
+.radio-wrp {
+  margin-bottom: 30px;
+}
+.radio {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+.radio-label {
+  font-size: 13px;
+  margin-right: 12px;
+}
+.radio-label::before {
+  content: "";
+  display: inline-block;
+  background-image: url(../svg/form-empty-circle.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 18px;
+  vertical-align: middle;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+}
+.radio:checked+
+.radio-label::before {
+  background-image: url(../svg/form-circle.svg);
+}
+.textarea-wrp {
+  margin-bottom: 25px;
+}
+.text-area {
+  width: 100%;
+  min-height: 130px;
+  resize: none;
+  padding: 20px;
+  font-family: inherit;
+  font-size: 13px;
+  color: #a2a4a3;
+  background-color: #f4f7f6;
+  border: none;
+}
+.text-area:focus {
+  outline: 1px solid #b59f5b;
+}
+.popup-btn {
+  width: 100%;
+  height: 48px;
+  font-family: inherit;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: none;
+  color: #ffffff;
+  background-color: #b59f5b;
+  cursor: pointer;
+}
+.popup-btn:hover {
+  background-color: #646565;
+}
+.close-popup {
+  position: absolute;
+  top: -25px;
+  right: 0;
+  width: 17px;
+  height: 17px;
+  background-image: url("../svg/form-x.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 17px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

@@ -377,31 +377,36 @@
       </div>
     </div>
   </footer>
-  <div class="popup">
+  <div class="popup visually-hidden">
     <div class="popup-container">
       <div class="feedback">
         <h3 class="feedback-title">ваш фидбек</h3>  
         <form class="feedback-form">
-          <label for="form-select" class="field-label">Как часто вы заходите на сайт?</label>
-          <select name="select" id="form-select" class="select" required>
-            <option value="everyday">Почти каждый день</option>
-            <option value="fewdays">Раз в несколько дней</option>
-            <option value="fewweeks">Раз в несколько недель</option>
-            <option value="fewyears">Несколько раз в год</option>
-          </select>  
+          <div class="select-wrp">
+            <label for="form-select" class="field-label">Как часто вы заходите на сайт?</label>
+            <select name="select" id="form-select" class="select" required>
+              <option value="everyday">Почти каждый день</option>
+              <option value="fewdays">Раз в несколько дней</option>
+              <option value="fewweeks">Раз в несколько недель</option>
+              <option value="fewyears">Несколько раз в год</option>
+            </select>
+          </div>  
           <div class="radio-wrp">
             <label class="field-label">Вы подписаны на e-mail рассылку?</label>
-            <input class="radio" type="radio" name="subscription" id="radio-yes" value="subyes">
-            <label for="radio-yes">Да</label>
+            <input class="radio" type="radio" name="subscription" id="radio-yes" value="subyes" checked>
+            <label class="radio-label" for="radio-yes">Да</label>
             <input class="radio" type="radio" name="subscription" id="radio-no" value="subno">
-            <label for="radio-no">Нет</label>
+            <label class="radio-label" for="radio-no">Нет</label>
           </div>
           <div class="textarea-wrp">
             <label class="field-label" for="text-area">Расскажите какой контент вы хотели бы видеть на нашем сайте?</label>
             <textarea class="text-area" name="text-area" id="text-area" placeholder="Может больше рецептов?"></textarea>
           </div>
+          <button class="popup-btn" type="submit">Отправить</button>
         </form>
-
+        <button type="button" class="close-popup" id="close-popup">
+          <span class="visually-hidden">Закрыть окно</span>
+        </button>
       </div>
 
     </div>
