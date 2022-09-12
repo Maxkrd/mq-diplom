@@ -70,7 +70,7 @@ body {
 .title {
   max-width: 720px;
   margin: 0 auto;
-  padding: 100px 0 95px 0;
+  padding: 70px 0 125px 0;
   font-size: 45px;
   color: #fff;
   text-transform: uppercase;
@@ -142,13 +142,15 @@ body {
   border: 3px solid rgba(181, 159, 91, 0.7);
   z-index: 1;
 }
+.trends-item-title {
+  line-height: 1.2;
+}
 .trends-item-link {
   width: 100%;
   font-size: 20px;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
-  line-height: 1.2;
   color: #ffffff;
 }
 .trends-item-link:hover {
@@ -198,7 +200,7 @@ body {
 }
 .article-title-link {
   display: inline-block;
-  max-width: 330px;
+  width: 330px;
   font-size: 20px;
   font-weight: 700;
   text-decoration: none;
@@ -438,8 +440,12 @@ body {
   width: 29.5%;
 }
 .product-preview {
+  width: 87%;
   margin: 0 auto;
   z-index: -1;
+}
+.product-img {
+  width: 100%;
 }
 .product-body {
   margin-top: -35px;  
@@ -472,7 +478,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center; 
+  align-items: flex-end; 
 }
 .product-price {
   display: flex;
@@ -788,11 +794,12 @@ body {
   }  
   
   .main-wrapper {
-    margin: 45px 35px;
+    margin-top: 45px;
   }
 
   .main-container {
     padding: 0;
+    width: 91%;
   }
 
   .main {
@@ -801,10 +808,11 @@ body {
 
   .article {
     display: block;
+    
   }
 
   .img-container {
-    padding-bottom: 6px;
+    padding-bottom: 5px;
   }
 
   .img {
@@ -822,12 +830,46 @@ body {
   .article-title-link {
     margin-top: 10px;
     font-size: 17px;
+    width: 100%;
   }
 
   .date-time {
     margin: 30px 0 27px 0;
   }
-}
+  
+  .post-date-time {
+    padding-left: 18px;
+  }
+
+  .products {
+    margin-top: 50px;
+  }
+  
+  .products-wrapper {
+    margin: 0 35px;
+    padding: 0;
+  }
+  
+  .products-title {
+    font-size: 18px;
+  }
+  
+  .products-item {
+    width: calc(50% - 13.5px);
+    margin-bottom: 25px; 
+  }
+  
+  .product-title-link {
+    font-size: 17px;
+  }   
+  
+  .product-body {
+    padding-top: 42px; 
+  }
+  
+  .footer {
+    margin-top: 30px;
+  }  
 
 @media (min-width: 1201px) {
   .menu-button {
