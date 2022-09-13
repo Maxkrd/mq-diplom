@@ -696,24 +696,12 @@ body {
   cursor: pointer;
 }
 
-@media (min-width: 641px) and (max-width: 1200px) {
-  
-  .header {
-    background-image: url("../img/banner-bg-tablet.jpg");
-  }
-  
-  .top-panel {
-    padding: 40px 35px;
-  }
-  
-  .header-logo {
-    width: 160px;
-  }
-  
+@media (max-width: 1200px) {
+ 
   .menu-list {
     display: none;
   }
-  
+ 
   .menu-button {
     width: 1em;
     height: 1em;  
@@ -752,6 +740,21 @@ body {
     position: absolute;
     left: 0;
     top: 50%;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1200px) {
+  
+  .header {
+    background-image: url("../img/banner-bg-tablet.jpg");
+  }
+  
+  .top-panel {
+    padding: 40px 35px;
+  }
+  
+  .header-logo {
+    width: 160px;
   }
 
   .title {
@@ -869,10 +872,42 @@ body {
   
   .footer {
     margin-top: 30px;
-  }  
+  } 
+}    
 
 @media (min-width: 1201px) {
   .menu-button {
+    display: none;
+  }
+}
+@media (max-width: 640px) {
+  .header {
+    background-image: url("../img/banner-mobile.jpg");
+  }
+  
+  .top-panel {
+    padding: 30px 15px;
+  }
+  
+  .header-logo {
+    display: none;
+  }
+  .mobile-logo {
+    display: block;
+		text-align: center;
+		width: 75%;
+		margin: 140px auto 0 auto;
+  }
+  .title {
+    max-width: 280px;
+    padding: 37px 0 210px 0;
+    font-size: 26px;
+    line-height: 1.38;
+  }
+}
+
+@media (min-width: 641px) {
+  .mobile-logo {
     display: none;
   }
 }
