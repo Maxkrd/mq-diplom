@@ -175,7 +175,7 @@ body {
 .article:not(:last-child) {
   margin-bottom: 50px;
 }
-.img {
+.img-container {
   padding-top: 5px;
 }
 .article-text {
@@ -790,7 +790,7 @@ body {
   }  
   
   .trends-item-block {
-    padding: 28px;
+    padding: 30px;
   }
 
   .category {
@@ -824,7 +824,7 @@ body {
     margin-bottom: 37px;
   }
   
-  .article:not(:last-child):after {
+  .article:after {
     content: "";
     display: block;
     width: 100%;
@@ -833,12 +833,8 @@ body {
   }
   
   .img-container {
-    padding-bottom: 5px;
-  }
-
-  .img {
     padding-top: 0;
-    
+    padding-bottom: 5px;
   }
 
   .article-img {
@@ -846,6 +842,7 @@ body {
   }
   .article-text {
     padding-left: 0px;
+    margin-bottom: 10px;
   }
 
   .article-title-link {
@@ -861,11 +858,9 @@ body {
   .post-date-time {
     padding-left: 18px;
   }
-  .article-description {
-    margin-bottom: 10px;
-  }
+  
   .products {
-    margin-top: 43px;
+    margin-top: 40px;
   }
   
   .products-wrapper {
@@ -887,7 +882,7 @@ body {
   }   
   
   .product-body {
-    padding-top: 42px; 
+    padding-top: 43px; 
   }
   
   .footer {
@@ -960,19 +955,26 @@ body {
     display: block;
   } 
 
-  .article::after {
+  .article:after {
     content: "";
     display: block;
     width: 100%;
     height: 3px;
     background-color: rgba(122, 122, 122, 0.2);
   }
-
+  .img-container {
+    padding-top: 0;
+  }
   .article-img {
     width: 100%;
   }
   .article:not(:last-child) {
-    margin-bottom: 47px;
+    margin-bottom: 34px;
+  }
+  .article-text {
+    padding-left: 0;
+    padding-top: 5px;
+    margin-bottom: 10px;
   }
   .article-title-link {
     width: 100%;
@@ -981,13 +983,8 @@ body {
   .products-container {
     display: block;
   }
-  .img {
-    padding-top: 0;
-  }
-  .article-text {
-    padding-left: 0;
-    padding-top: 5px;
-  }
+  
+ 
  
   .date-time {
     margin-top: 17px;
@@ -996,6 +993,35 @@ body {
   .article-description {
     font-size: 14px;
     line-height: 1.428;
+  }
+  .aside {
+    width: 100%;
+  }
+  .aside-block-title {
+    font-size: 16px;
+    margin-top: 37px;
+  }
+  .search-field {
+    width: calc(100% - 48px);
+  }
+  .aside-block {
+    margin-bottom: 40px;
+  }
+  
+  .mailing-field {
+    width: 100%;
+  }
+  .mailing-btn {
+    width: 100%;
+  }
+  .mailing {
+    margin-bottom: 38px;
+  }
+  .tags-item {
+    margin: 4px 3px;
+  }
+  .tags {
+    margin-bottom: 25px;
   }
 }
 
