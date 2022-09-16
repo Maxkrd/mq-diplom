@@ -1069,3 +1069,23 @@ body {
     display: none;
   }
 }
+
+@media (min-width: 641px) and (max-width: 1200px) and (orientation: landscape) {
+  .trends-item {
+    width: calc(25% - 3px);
+    min-width: 200px;
+  }  
+  .trends-item-block {
+    padding: 5px;
+  }
+}
+
+@media (max-width: 640px) and (orientation: landscape) {
+  .trends-container {
+    display: flex;
+  }
+  .trends-item {
+    width: calc(50% - 3px);
+    min-width: 200px;
+  }  
+}
