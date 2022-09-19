@@ -61,7 +61,7 @@ body {
 .menu-list-link {
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 0.81rem;
   color: #fff;
 }
 .menu-list-link:hover {
@@ -71,7 +71,7 @@ body {
   max-width: 720px;
   margin: 0 auto;
   padding: 70px 0 125px 0;
-  font-size: 45px;
+  font-size: 2.81rem;
   color: #fff;
   text-transform: uppercase;
   line-height: 1.65;
@@ -81,7 +81,7 @@ body {
   margin-top: 60px;
 }
 .trends-title {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
@@ -147,7 +147,7 @@ body {
 }
 .trends-item-link {
   width: 100%;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
@@ -191,7 +191,7 @@ body {
   margin-right: 20px;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
   color: #b59f5b;
 }
@@ -200,8 +200,8 @@ body {
 }
 .article-title-link {
   display: inline-block;
-  width: 330px;
-  font-size: 20px;
+  max-width: 330px;
+  font-size: 1.25rem;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
@@ -217,15 +217,15 @@ body {
 }
 .article-date {
   padding-right: 10px; 
-  font-size: 12px;
+  font-size: 0.75rem;
   color: #888888;
 }
 .article-writer {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 700;
 }
 .article-description {
-  font-size: 15px;
+  font-size: 0.94rem;
   line-height: 1.46;
 }
 .article-description>p {
@@ -238,7 +238,7 @@ body {
   margin-bottom: 58px;
 }
 .aside-block-title {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -254,7 +254,7 @@ body {
   background-color: #e1d9bd;
 }
 .aside-title-theme {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
   text-transform: uppercase;
   padding-top: 10px;
@@ -283,12 +283,12 @@ body {
   padding-left: 20px;
 }
 .post-date {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: #888888;
 }
 .post-title-link {
   display: flex; 
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
@@ -318,7 +318,7 @@ body {
   background-color: #f4f7f6;
   padding: 6px 12px;
   font-family: inherit;
-  font-size: 13px;
+  font-size: 0.81rem;
   border: none;
   color: #939594;
 }
@@ -353,7 +353,7 @@ body {
   padding: 6px 12px; 
   margin-bottom: 18px;
   font-family: inherit;
-  font-size: 13px;
+  font-size: 0.81rem;
   border: none;
   color: #939594;
   background-color: #f4f7f6;
@@ -365,7 +365,7 @@ body {
   width: 270px;
   height: 48px;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 0.875rem;
   text-transform: uppercase;
   border: none;
   color: #ffffff;
@@ -393,7 +393,7 @@ body {
 }
 .tags-item-link {
   text-decoration: none;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
   color: #0f0d0e;
@@ -407,7 +407,7 @@ body {
 } 
 .theme-item-link {
   padding-left: 3px;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
   text-decoration: none;
   line-height: 3.3;
@@ -417,8 +417,8 @@ body {
   color: #b59f5b;
 }
 .theme-count {
-  font-size: 12px;
-  line-height: 36px;
+  font-size: 0.75rem;
+  line-height: 3;
   color: #b59f5b;
   font-weight: 700;
   vertical-align: super;
@@ -432,7 +432,7 @@ body {
   padding: 0 15px;
 }  
 .products-title {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
@@ -471,8 +471,11 @@ body {
   padding: 40px 20px 30px 20px;
   flex-grow: 1;
 }
+.product-title {
+  margin-bottom: 5px;
+}
 .product-title-link {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
@@ -483,7 +486,7 @@ body {
   color: #b59f5b;
 }
 .product-description {
-  font-size: 15px;
+  font-size: 0.94rem;
   font-weight: 400;
   line-height: 1.46;
 }
@@ -500,12 +503,12 @@ body {
 }
 .product-price {
   display: flex;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
 }
 .product-price-old {
   text-decoration: line-through;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .product-rub {
   margin-left: 0.3em;
@@ -515,7 +518,7 @@ body {
   height: 48px;
   font-family: inherit;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 0.875rem;
   text-transform: uppercase;
   border: none;
   color: #ffffff;
@@ -573,7 +576,7 @@ body {
   text-align: center;
 }
 .copyright-link {
- font-size: 12px;
+ font-size: 0.75rem;
  font-weight: 700;
  color: #999999;
  text-decoration: none;
@@ -595,7 +598,7 @@ body {
   position: relative;
 }
 .feedback-title {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
@@ -610,7 +613,7 @@ body {
   background-color: #e1d9bd;
 }
 .field-label {
-  font-size: 13px;
+  font-size: 0.81rem;
   display: block;
   margin-bottom: 5px; 
 }
@@ -648,7 +651,7 @@ body {
   overflow: hidden;
 }
 .radio-label {
-  font-size: 13px;
+  font-size: 0.81rem;
   margin-right: 12px;
 }
 .radio-label::before {
@@ -677,7 +680,7 @@ body {
   resize: none;
   padding: 20px;
   font-family: inherit;
-  font-size: 13px;
+  font-size: 0.81rem;
   color: #a2a4a3;
   background-color: #f4f7f6;
   border: none;
@@ -689,7 +692,7 @@ body {
   width: 100%;
   height: 48px;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 0.875rem;
   text-transform: uppercase;
   border: none;
   color: #ffffff;
@@ -726,7 +729,7 @@ body {
     border: none;
     padding: 0;
     background-color: transparent;
-    font-size: 22px;
+    font-size: 1.375rem;
     position: relative;
     text-indent: -9999px;
     cursor: pointer;
@@ -784,7 +787,7 @@ body {
   .title {
     max-width: 620px;
     padding: 45px 0 112px 0;
-    font-size: 40px;
+    font-size: 2.5rem;
     line-height: 1.375;
   }
 
@@ -793,7 +796,7 @@ body {
   }
 
   .trends-title {
-    font-size: 18px;
+    font-size: 1.125rem;
   }  
 
   .trends-title:after {
@@ -816,7 +819,7 @@ body {
   } 
 
   .trends-item-link {
-    font-size: 17px;
+    font-size: 1.06rem;
     line-height: 1.3;
   }  
   
@@ -865,8 +868,8 @@ body {
 
   .article-title-link {
     margin-top: 10px;
-    font-size: 17px;
-    width: 100%;
+    font-size: 1.06rem;
+    max-width: 100%;
   }
 
   .date-time {
@@ -886,7 +889,7 @@ body {
   }
   
   .products-title {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   
   .products-item {
@@ -894,8 +897,12 @@ body {
     margin-bottom: 25px; 
   }
   
+  .product-title {
+    margin-bottom: 0;
+  }
+  
   .product-title-link {
-    font-size: 17px;
+    font-size: 1.06rem;
   }   
   
   .footer {
@@ -909,7 +916,6 @@ body {
   }
 }    
 
-
 @media (max-width: 640px) {
   .header {
     background-image: url("../img/banner-mobile.jpg");
@@ -922,50 +928,61 @@ body {
   .header-logo {
     display: none;
   }
+  
   .mobile-logo {
     display: block;
 		text-align: center;
 		width: 75%;
 		margin: 145px auto 0 auto;
   }
+  
   .title {
     max-width: 280px;
     padding: 37px 0 210px 0;
-    font-size: 26px;
+    font-size: 1.625rem;
     line-height: 1.38;
   }
+  
   .trends-wrapper {
     margin-top: 40px;
   }
+  
   .trends-title {
-    font-size: 16px; 
+    font-size: 1rem; 
   }
+  
   .trends-container {
     display: block;
   }
+  
   .trends-item {
     width: 100%;
     min-height: 230px;
     padding: 15px;
     margin-bottom: 3px;
   }
+  
   .trends-item-block {
     padding: 25px 20px;
   }
+  
   .category {
     margin-bottom: 5px;
-    
-}
+  }
+  
   .trends-item-link {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.25;
   } 
+  
   .main-wrapper {
     margin-top: 45px;
   }
+  
   .main-container {
     display: block;
   }
+  
   .article {
     display: block;
   } 
@@ -977,24 +994,30 @@ body {
     height: 3px;
     background-color: rgba(122, 122, 122, 0.2);
   }
+  
   .img-container {
     padding-top: 0;
   }
+  
   .article-img {
     width: 100%;
   }
+  
   .article:not(:last-child) {
     margin-bottom: 34px;
   }
+  
   .article-text {
     padding-left: 0;
     padding-top: 5px;
     margin-bottom: 10px;
   }
+  
   .article-title-link {
-    width: 100%;
-    font-size: 16px;
+    max-width: 100%;
+    font-size: 1rem;
   }
+  
   .aside-title-theme {
     padding-top: 12px;
     margin-bottom: 14px;
@@ -1004,20 +1027,25 @@ body {
     margin-top: 17px;
     margin-bottom: 12px;
   }
+  
   .article-description {
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 1.428;
   }
+  
   .aside {
     width: 100%;
   }
+  
   .aside-block-title {
-    font-size: 16px;
+    font-size: 1rem;
     margin-top: 37px;
   }
+  
   .search-field {
     width: calc(100% - 48px);
   }
+  
   .aside-block {
     margin-bottom: 40px;
   }
@@ -1025,15 +1053,19 @@ body {
   .mailing-field {
     width: 100%;
   }
+  
   .mailing-btn {
     width: 100%;
   }
+  
   .mailing {
     margin-bottom: 38px;
   }
+  
   .tags-item {
     margin: 4px 3px;
   }
+  
   .tags {
     margin-bottom: 25px;
   }
@@ -1041,24 +1073,28 @@ body {
   .products {
     margin-top: 35px
   }
+  
   .products-title {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .products-container {
     display: block;
   }
+  
   .products-item {
     width: 100%;
     margin-bottom: 20px;
   }
   
   .product-title-link {
-    font-size: 17px;
+    font-size: 1.06rem;
   }
+  
   .footer {
     margin-top: 40px;
   }
+  
   .copyright {
     margin-top: 45px;
   }
@@ -1073,11 +1109,21 @@ body {
 @media (min-width: 641px) and (max-width: 1200px) and (orientation: landscape) {
   .trends-item {
     width: calc(25% - 3px);
-    min-width: 200px;
+    padding: 1.25vw 1.67vw;
   }  
+  
   .trends-item-block {
-    padding: 5px;
+    padding: 2.5vw;
   }
+  .category-item {
+    margin-right: 1.67vw;
+    font-size: 1.17vw;
+  }
+  
+  .trends-item-link {
+    font-size: 1.67vw;
+  }
+
 }
 
 @media (max-width: 640px) and (orientation: landscape) {
@@ -1086,6 +1132,18 @@ body {
   }
   .trends-item {
     width: calc(50% - 3px);
-    min-width: 200px;
+    padding: 2.34vw;
   }  
+  
+  .trends-item-block {
+    padding: 3.9vw 3.125vw;
+  }
+  .category-item {
+    margin-right: 3.125vw;
+    font-size: 2.19vw;
+  }
+  
+  .trends-item-link {
+    font-size: 2.5vw;
+  }
 }
